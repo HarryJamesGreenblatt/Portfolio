@@ -117,7 +117,7 @@ html{
     font-size: larger;
     font-weight: 700;
 }
-.home .home-content a{
+.home .home-content .hire{
     display: inline-block;
     background: rgb(152, 111, 11);
     color: white;
@@ -128,7 +128,7 @@ html{
     border: 2px solid rgb(182, 141, 41);
     transition: all 0.3s ease;
 }
-.home .home-content a:hover{
+.home .home-content .hire:hover{
     background: none;
     color: rgb(182, 141, 41);
 }
