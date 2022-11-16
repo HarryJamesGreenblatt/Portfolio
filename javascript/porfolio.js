@@ -50,7 +50,17 @@ $(document).ready(function () {
 
 // typing animation
 var typed = new Typed(".typed",{
-    strings: ["Engineer", "Administrator","Developer","Designer",""],
+    strings: [
+        "Engineer", 
+        "Administrator",
+        "Developer",
+        "Designer",
+        "Veteran",
+        "Leader",
+        "Architect",
+        "Thinker",
+        "Tinkerer"
+    ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true

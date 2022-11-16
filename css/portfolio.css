@@ -295,7 +295,7 @@ section{
 .about-content .column-right p{
     text-align: justify;
 }
-.about-content .column-right a{
+/* .about-content .column-right a{
     display: inline-block;
     background: rgb(152, 111, 11);
     color: white;
@@ -305,10 +305,36 @@ section{
     border-radius: 5px;
     border: 2px solid rgb(182, 141, 41);
     transition: all 0.3s ease;
+} */
+.about-content .column-right i{
+    display: inline-block;
+    color: black;
+    font-size: 50px;
+    margin: 0 25px;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
 }
-.about-content .column-right a:hover{
+.about-content .column-right p span{
+    font-weight: bold;
+    color: rgb(56, 51, 31);
+}
+/* .about-content .column-right a:hover{
     background: none;
     color: rgb(182, 141, 41);
+} */
+.about-content .column-right .fa-linkedin{
+    color: rgb(87, 145, 190);
+}
+.about-content .column-right .fa-github-square{
+    color: black;
+}
+.about-content .column-right .fa-linkedin:hover{
+    color: rgb(182, 141, 41);
+    transform: scale(1.15);
+}
+.about-content .column-right .fa-github-square:hover{
+    color: rgb(182, 141, 41);
+    transform: scale(1.15);
 }
 .about-content .column-left {
     width: 55%;
@@ -328,6 +354,7 @@ section{
         justify-content: center;
         margin: 0 auto 60px;
         transition: all 0.3s ease;
+        margin-bottom: 25px;
     }
     .about-content .column-right {
         flex: 100%;
@@ -581,8 +608,17 @@ section{
     margin: 10px 0 7px 0;
     padding-top: 30px;
 }
-.clients .saic{
+.clients .smrc{
     font-size: 23px;
+    /* margin-bottom: 35px; */
+}
+.sd_best{
+    max-width: 70px!important;
+    border: none!important;
+    display: block!important;
+    margin: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 .clients .text{
     padding-bottom: 15px;
