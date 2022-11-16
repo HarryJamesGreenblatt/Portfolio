@@ -295,17 +295,6 @@ section{
 .about-content .column-right p{
     text-align: justify;
 }
-/* .about-content .column-right a{
-    display: inline-block;
-    background: rgb(152, 111, 11);
-    color: white;
-    font-size: 20px;
-    padding: 10px 36px;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: 2px solid rgb(182, 141, 41);
-    transition: all 0.3s ease;
-} */
 .about-content .column-right i{
     display: inline-block;
     color: black;
@@ -318,10 +307,6 @@ section{
     font-weight: bold;
     color: rgb(56, 51, 31);
 }
-/* .about-content .column-right a:hover{
-    background: none;
-    color: rgb(182, 141, 41);
-} */
 .about-content .column-right .fa-linkedin{
     color: rgb(87, 145, 190);
 }
