@@ -384,12 +384,12 @@ section{
 
 }
 .container .title::after{
-    content: "what i do / how i do it";
+    content: "what i do/how i do it";
     position: absolute;
     bottom: 0px;
     padding: 0 8px 0 8px;
     left: 50%;
-    font-size: 18px;
+    font-size: 17px;
     background: rgb(251, 248, 242);
     color: rgb(90, 82, 49);
     transform: translateX(-50%);
