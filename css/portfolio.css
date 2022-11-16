@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background: black; */
+    background: #342932;
+    background: white;
+}
+
+header{
+    margin-bottom: 1px;
+}
+
+img {
+
+    max-width: 50%;
+    border-radius: 50%;
+    float: right;
+}
+
+#py{
+
+    max-width: 1.2em;
+    float: none;
+
+}
+
+#py_in_hero{
+
+    max-width: 1.65em;
+    float: none;
+
+}
+
+/* #index {
+
+    max-width: 95%;
+    border-radius: 2% !important;
+    float: right;
+
+}  */
+#index {
+
+    max-width: 80%;
+    border-radius: 2% !important;
+    float: right;
+    
+}
+
+#name{
+
+    padding-top: 130px;
+
+}
+
+
+
+#thing{
+
+    display: block;
+    margin: auto;
+    margin-bottom: -23.8px;
+    /* background: white; */
+}
+
+code{
+
+    background: none;
+    font-size: larger;
+
+}
+
+kbd{
+
+    background: grey;
+    color: white;
+
+}
+
+
+#javascript_interpretation_section{
+    /* margin: 0px 0 550px 0; */
+    padding-bottom: 85px;
+    /* background: #ff8; */
+}
+
+
+
+#kooky_jingles, 
+#data_structures{
+
+    padding: 60px;
+
+}
+
+
+thead{
+
+    padding: 500px;
+    background: rgb(0, 0, 0) !important;
+
+}
+
+td:hover{
+
+
+    /* background: rgb(238, 244, 252); */
+    background: hsl(48, 100%, 94%);
+
+
+
+
+}
+
+
+
+a {
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color: red;
+
+}
+
+
+#home{
+
+    /* background: white; */
+    background: white;
+    
+}
+#home:hover{
+    
+    /* background: rgba(245, 245, 245, 150); */
+    background: rgba(185, 185, 185, 150);
+
+}
+
+#cnv{
+
+    width: 960px;
+    height: 415px;
+    /* max-width: 100%; */
+    
+    margin: auto;
+    /* margin-bottom: 500px; */
+    /* padding: 0 200px 0 200px; */
+    /* background: whitesmoke; */
+
+} 
+
+#foot_title{
+
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+pre {
+
+    font-size: large;
+
+}
+
+.sd {
+
+    font-size: large;
+
+}
+
+
