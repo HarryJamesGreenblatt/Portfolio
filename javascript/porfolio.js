@@ -28,6 +28,14 @@ $(document).ready(function () {
         $('.menu-btn i').toggleClass('active');
     });
 
+    $('.menu li a').click(function(){
+        if(window.innerWidth <= 950)
+        {
+            $('.navbar .menu').removeClass('active');
+            $('.menu-btn i').removeClass('active');
+        }
+    });+
+
     // owl carousel script
     $('.owl-carousel').owlCarousel({
         margin: 40,
