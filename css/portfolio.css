@@ -34,8 +34,11 @@ html{
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo span{
+.first{
     color: rgb(152, 111, 11);
+}
+.middle{
+    color: rgb(110, 81, 8);
 }
 .navbar .logo a{
     color: rgb(90, 82, 49);
