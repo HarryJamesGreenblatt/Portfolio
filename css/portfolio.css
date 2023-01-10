@@ -742,3 +742,17 @@ section{
     pointer-events: auto;
 }
 
+
+/* footer styling */
+footer{
+    font-family: 'Asap', sans-serif;
+    background: #ccc;
+    color: #555;
+    padding: 20px 23px;
+    text-align: center;
+}
+
+footer #author{
+    color: rgb(152, 111, 11);
+    font-weight: bold;
+}
