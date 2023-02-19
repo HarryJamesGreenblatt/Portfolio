@@ -566,7 +566,7 @@ section{
     transition: all 0.2s ease-in-out;
 }
 .clients img{
-    width: 400px !important;
+    width: 300px !important;
     /* object-fit: cover; */
     border: 5px solid rgb(152, 111, 11);
     border-radius: 50%;
@@ -601,9 +601,9 @@ section{
     /* margin-bottom: 35px; */
 }
 .sd_best{
-    max-width: 70px!important;
-    border: none!important;
-    display: block!important;
+    max-width: 70px !important;
+    border: none !important;
+    display: block !important;
     margin: auto;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -619,13 +619,13 @@ section{
     text-align: center;
     margin-top: 20px;
 }
-.owl-dot{
+.owl-dot {
     height: 13px;
     width: 13px;
     margin: 0 5px;
     outline: none !important;
     border-radius:  50%;
-    border:  2px solid rgb(152, 111, 11)!important;
+    border:  2px solid rgb(152, 111, 11) !important;
     transition: all 0.3s ease-in-out;
 }
 .owl-dot.active{
