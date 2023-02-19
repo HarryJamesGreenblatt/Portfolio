@@ -92,7 +92,7 @@ html{
 .home{
     display: flex;
     /* background: rgb(243, 242, 241); */
-    background: url(../img/profile_full.jpg) no-repeat center;
+    background: url(../img/profile_full2.jpg) no-repeat center;
     height: 100vh;
     color: rgb(50, 49, 48);
     font-family: 'Asap', sans-serif;
@@ -566,7 +566,7 @@ section{
     transition: all 0.2s ease-in-out;
 }
 .clients img{
-    width: 300px !important;
+    width: 250px !important;
     /* object-fit: cover; */
     border: 5px solid rgb(152, 111, 11);
     border-radius: 50%;
@@ -613,6 +613,21 @@ section{
 }
 .clients p{
     text-align: justify;
+}
+
+.smrc_best_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smrc_best_content .column-left {
+    width: 25%;
+}
+.smrc_best_content .column-right {
+    text-align: justify;
+    width: 70%;
 }
 
 .owl-dots{
