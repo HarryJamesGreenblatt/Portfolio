@@ -49,6 +49,10 @@ $(document).ready(function () {
             600: {
                 items: 2,
                 nav: false
+            },
+            1200: {
+                items: 3,
+                nav: false
             }
         }
     });
