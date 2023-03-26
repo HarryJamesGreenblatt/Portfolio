@@ -92,11 +92,20 @@ html{
 .home{
     display: flex;
     /* background: rgb(243, 242, 241); */
-    background: url(../img/profile_full2.jpg) no-repeat center;
+    background: url(../img/ProfileGIF.gif) no-repeat center;
     height: 100vh;
     color: rgb(50, 49, 48);
     font-family: 'Asap', sans-serif;
+    background-position-x: center;
+    animation: mymove 7s infinite;
 }
+
+@keyframes mymove {
+    50% {
+        background-position-x: right;
+    }
+}
+
 .home .max-width{
     margin: auto 0 auto 40px;
 }
@@ -211,13 +220,24 @@ html{
         padding: 0 23px;
     }
 
+    .home{
+        color: whitesmoke;
+    }
 
     .home .home-content .text-2{
         font-size: 60px;
         transition: all 0.3s ease;
     }
+    .home .home-content .text-2 span{
+        color: rgb(190, 141, 17);
+        transition: all 0.3s ease;
+    }
     .home .home-content .text-3{
         font-size: 30px;
+        transition: all 0.3s ease;
+    }
+    .home .home-content .text-3 span{
+        color: rgb(90, 82, 49);
         transition: all 0.3s ease;
     }
     .home .home-content a{
