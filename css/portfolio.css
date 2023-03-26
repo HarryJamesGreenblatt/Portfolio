@@ -233,7 +233,8 @@ html{
         transition: all 0.3s ease;
     }
     .home .home-content .text-3{
-        font-size: 30px;
+        font-size: 26px;
+        /* color: whitesmoke; */
         transition: all 0.3s ease;
     }
     .home .home-content .text-3 span{
