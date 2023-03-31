@@ -1,8 +1,29 @@
+function noscroll() {
+    window.scrollTo(0, 0);
+}
+
+
+// add listener to disable scroll
+window.addEventListener('scroll', noscroll);
+
+
+function onMyFrameLoad() {
+    setTimeout(
+        function () {
+
+            // Remove the scroll disabling listener (to enable scrolling again)
+            window.removeEventListener('scroll', noscroll);
+        }, 
+        1000
+    );
+}
+
+
 $(document).ready(function () {
 
-    $(window).on('load', (e) => {
-        $(window).scrollTop(0);        
-    })
+    // $(window).on('load', (e)=>{
+    //     $(window).scrollTop(0);        
+    // })
 
     $(window).scroll(function(){
         if(this.scrollY > 20){
@@ -19,12 +40,12 @@ $(document).ready(function () {
             $('.scroll-up-btn').removeClass('show');
         }
 
-        if(this.scrollY > 2500){
-            $('.contact_form_iframe').addClass('show');
-        }
-        else{
-            $('.contact_form_iframe').removeClass('show');
-        }
+        // if(this.scrollY > 2500){
+        //     $('.contact_form_iframe').addClass('show');
+        // }
+        // else{
+        //     $('.contact_form_iframe').removeClass('show');
+        // }
     });
 
 
