@@ -720,12 +720,20 @@ section{
 
 }
 
+.contact .contact_form_iframe{
+    display: none;
+}
+.contact .contact_form_iframe.show{
+    display: inline-block;
+}
 
 .contact iframe{
     height: 75vh;
     width: 60vw;
     transition: all 0.3s ease-in-out;
 }
+
+
 
 @media(max-width: 1700px){
     .contact iframe{
