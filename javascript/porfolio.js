@@ -14,7 +14,7 @@ function onMyFrameLoad() {
             // Remove the scroll disabling listener (to enable scrolling again)
             window.removeEventListener('scroll', noscroll);
         }, 
-        1000
+        3000
     );
 }
 
