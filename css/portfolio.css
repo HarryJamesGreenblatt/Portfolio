@@ -794,9 +794,16 @@ footer{
     color: #555;
     padding: 20px 23px;
     text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 
 footer #author{
     color: rgb(152, 111, 11);
     font-weight: bold;
 }
+
+@media(max-width: 850px){
+    footer{
+        font-size: smaller;
+    }
+}  
