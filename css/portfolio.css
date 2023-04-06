@@ -804,6 +804,6 @@ footer #author{
 
 @media(max-width: 850px){
     footer{
-        font-size: smaller;
+        font-size: 13px;
     }
 }  
