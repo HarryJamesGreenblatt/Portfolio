@@ -4,7 +4,7 @@ function noscroll() {
 
 
 // add listener to disable scroll
-window.addEventListener('scroll', noscroll);
+// window.addEventListener('scroll', noscroll);
 
 
 function onMyFrameLoad() {
